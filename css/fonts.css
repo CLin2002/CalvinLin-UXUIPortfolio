@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'comfortaa'; 
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fredokaone'; 
+    src: url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'fredokaone', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+  }
+  
+  h2, h3, h4, h5, h6, p, a, li, ul {
+    font-family: 'comfortaa', sans-serif;
+    color: rgb(0, 0, 0);
+  }

@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fonts.css">
         <script src="script/scripts.js"></script>
         <title>Calvin's Design Portfolio</title>
     </head>
@@ -11,59 +12,51 @@
         <!-- <div class="logo" id="logo"> </div> -->
         <div class="side-conts" id="side-conts">
           <ul style="list-style-type:none;">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="html/about.html">About</a></li>
             <li class="dropdown" onclick="showDrop()">Projects
                 <ul id="dropdown-conts" >
-                    <li><a href="#">App Creation</a></li>
+                    <li><a href="html/appcreation.html">App Creation</a></li>
                 
                 
-                    <li><a href="#">Feature Design</a></li>
+                    <li><a href="html/featuredesign.html">Feature Design</a></li>
                 
                 
-                    <li><a href="#">Website Development</a></li>
+                    <li><a href="html/brandcreation.html">Personal Portfolio</a></li>
                     
             
                 </ul>
             </li>
             
-            <li><a href="content.html">Contact</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
           </ul>
         </div>
     </div>
-    <div class="#">
+    <div class="text-margin" id="title-card">
         <h1>Hello! My name is Calvin Lin</h1>
         <p>I am a product designer based in Vancouver, at the moment, I am purusing my undergraduate degree in Interactive Arts and Technology with a concentration in design at Simon Fraser University. My passion is to build elegant solutions that improve the lives of others!</p>
     </div>
 
-    <div class="#">
+    <div class="text-margin">
         <h2>A selection of my academic projects:</h2>
     </div>
 
-    <div class="#">
-        <div class="#">
-            <p>image here</p>
-        </div>
-        <div class="#">
-            <p>description here</p>
-        </div>
+    <div class="container">
+        <div class="gutter-left"><p></p></div>
+        <div class="item" id="landing-item"><a><img src="images/citymapper.png" alt="my Citymapper feature design project" href="html/featuredesign.html"></a></div>
+        <div class="item"><h2>City Mapper Feature Design - UI Design</h2></div>
+        <div class="gutter-right"><p></p></div>
     </div>
-
-    <div class="#">
-        <div class="#">
-            <p>image here</p>
-        </div>
-        <div class="#">
-            <p>description here</p>
-        </div>
+    <div class="container">
+        <div class="gutter-left"><p></p></div>
+        <div class="item" id="landing-item"><a><img src="images/biged.png" alt="my app creation project" href="html/appcreation.html"></a></div>
+        <div class="item"><h2>Big Ed - UI Design</h2></div>
+        <div class="gutter"><p></p></div>
     </div>
-
-    <div class="#">
-        <div class="#">
-            <p>image here</p>
-        </div>
-        <div class="#">
-            <p>description here</p>
-        </div>
+    <div class="container">
+        <div class="gutter-left"><p></p></div>
+        <div class="item" id="landing-item"><a><img src="images/personalportfolio.png" alt="my personal portfolio project" href="html/brandcreation.html"></a></div>
+        <div class="item"><h2>Personal Portfolio - Web Development</h2></div>
+        <div class="gutter-right"><p></p></div>
     </div>
 </html>
