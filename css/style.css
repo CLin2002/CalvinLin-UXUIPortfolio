@@ -151,7 +151,26 @@ containers
     width: 35%;
     word-wrap: break-word;
     box-sizing: border-box;
+	margin-bottom: 5%;
     /* background-color: rgba(0,0,0,0.05); */
+}
+
+.item img {
+	min-width: 0;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+    padding: 0 2px;
+    margin: 0 16px 16px 16px;
+}
+
+.item video {
+	min-width: 0;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+    padding: 0 2px;
+    margin: 0 16px 16px 16px;
 }
 
 #landing-item img {
@@ -203,3 +222,111 @@ landing page
 #title-card {
     padding-top: 5%;
 }
+
+/* . 
+. 
+. 
+projects
+. 
+. 
+.  */
+#project-card h1 {
+	padding-top: 10%;
+	font-size: 2rem;
+}
+
+.overview-card {
+	background-color: var(--gray-accent);
+	border-radius: 1rem;
+	justify-content: center;
+	margin: auto;
+	width: 70%;
+	margin-left: 20%;
+	padding: 10px;
+
+}
+
+.overview-card h2 {
+	color: white;
+	text-align: center;
+	margin-bottom: 2.5%;
+}
+
+.overview-card h1 {
+	color: white;
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+
+.overview-container {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+    margin: 0 16px 16px 16px;
+}
+
+.overview-item h3 {
+	color: white;
+}
+
+.overview-item p {
+	color: rgb(235, 235, 235);
+}
+
+.overview-item {
+	/* justify-content: center; */
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+    width: 45%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.overview-gutter {
+    padding: 10px;
+    width: 5%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+#other-projects {
+	background-color: var(--gray-accent);
+	border-radius: 1rem;
+	justify-content: center;
+	margin: auto;
+	width: 70%;
+	margin-left: 20%;
+	padding: 10px;
+
+}
+
+#thumbnail-item img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    max-width: 75%;
+    filter: drop-shadow(0 0 0.75rem var(--lavendergray-accent));
+    border-radius: 1rem;
+}
+
+#thumbnail-item img:hover {
+    opacity: 80%;
+	scale: 105%;
+}
+
+#thumbnail-item h2 {
+	text-align: center;
+	padding-bottom: 2.5%;
+}
+
+
+/* . 
+. 
+. 
+citymapper
+. 
+. 
+.  */
