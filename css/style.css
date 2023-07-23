@@ -236,7 +236,7 @@ projects
 }
 
 .overview-card {
-	background-color: var(--gray-accent);
+	background-color: var(--lavendergray-accent);
 	border-radius: 1rem;
 	justify-content: center;
 	margin: auto;
@@ -273,6 +273,14 @@ projects
 
 .overview-item p {
 	color: rgb(235, 235, 235);
+}
+
+.overview-item a {
+	text-decoration: none;
+}
+
+.overview-item a:hover {
+	opacity: 80%;
 }
 
 .overview-item {
@@ -326,7 +334,45 @@ projects
 /* . 
 . 
 . 
-citymapper
+forms
 . 
 . 
 .  */
+
+form{
+    margin-left: 25%;
+    width: 50%;
+  }
+  
+  form label{
+    font-size: 1.2rem;
+	color: white;
+  }
+  
+  input, textarea, button {
+	border-radius: 1rem;
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    font-size: 1.2rem;
+  }
+  input[type="text"], input[type="email"], textarea {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  textarea {
+    height: 6em;
+  }
+  input[type="submit"], button {    
+	border-radius: 1rem;
+    background: var(--gray-accent);
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover, button:hover {
+    opacity: 80%;
+	scale: 105%;
+  }
+  
