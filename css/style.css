@@ -246,6 +246,11 @@ projects
 
 }
 
+.overview-item iframe {
+	width: auto;
+	height: 100%;
+}
+
 .overview-card h2 {
 	color: white;
 	text-align: center;
