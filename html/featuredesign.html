@@ -16,13 +16,16 @@
             <li><a href="../html/about.html">About</a></li>
             <li class="dropdown" onclick="showDrop()">Projects
                 <ul id="dropdown-conts" >
+
+                    <li><a href="../html/TERAsBEAN.html">Interaction Design</a></li>
+
                     <li><a href="../html/appcreation.html">App Creation</a></li>
                 
                 
                     <li><a href="#">Feature Design</a></li>
                 
                 
-                    <li><a href="../html/brandcreation.html">Glow In The Dough</a></li>
+                    <!-- <li><a href="../html/brandcreation.html">Glow In The Dough</a></li> -->
                     
             
                 </ul>
@@ -72,36 +75,17 @@
         <div class="gutter-left">
         </div>
         <div class="item">
-            <h2>Arriving on time...</h2>
-            <br>
-            <p>Arriving on time, you either posses the skill or you don't. Something that consumers have grown accustom to are apps such as Apple or Google Maps. No matter what users choose to use, somebody is bound to be late during a group meetup.</p>
-            <br>
-            <p>These issues only get amplified by the need to take public transit. Potential delays, inconsistent schedules, and the inevitable side-eye as a driver watches you run after a bus are all the more reason to use <strong>Groups</strong>.</p>
-            <br>
-            <p><strong>Groups</strong> is the solution for users who hate planning large group events and wish for an easy, one-stop-solution. Live-location tracking and unique route planning for each user in a group alleviates the pain and stress associated with planning large trips.</p>
-        </div>
-        <div class="item">
-            <a><img src="../images/group-eta.png" alt="my Citymapper feature design project" /></a>
-        </div>
-        <div class="gutter-right">
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="gutter-left">
-        </div>              
-        <div class="item">
-            <h2>Learning Citymapper's UI habbits</h2>
+            <h2>Initial Research</h2>
             <br>
             <p>Citymapper is a well established app that aims to get users from point A to point B using different means of travel, with a particular focus on public transit systems. The goal was to dissect and understand how Citymapper uses different UI elements so that we were able to implement a new feature that was minimally invasive to the existing UI.</p>
             <br>
             <p>Taking a look at the UI and patterns, we noticed some inconsistencies, such as the use of different colours for icons that did not directly relate to traveling. Other features included saving and sharing specific routes, as well as features that allowed users to plan in advance (only applies to solo travel).</p>
             <br>
-        </div>  
-        <div class="item">
-            <a href="../images/patterns.png" target="_blank"><img src="../images/patterns.png" alt="my Citymapper feature design project"></a>
+            <p>Potential areas of improvement that have been identified are the addition of more social features, trip planning, as well as more accommodations for tourism.</p>
         </div>
-
+        <div class="item">
+            <a><img src="../images/citymapper-research.png" alt="my Citymapper feature design project" /></a>
+        </div>
         <div class="gutter-right">
         </div>
     </div>
@@ -109,7 +93,7 @@
     <div class="container">
         <div class="gutter-left">
         </div>         
-        <div class="item">
+        <div class="item-span">
             <h2>User interviews & persona creation</h2>
             <br>
             <p>Diving deeper into understanding potential features that we could implement into Citymapper, we studied the mapping habbits of users. We conduected 5 Ask and Watch interviews, conducted interviews to understand overall transit experiences, observed users' current process with navigation apps, as well as conducting a Think Out Loud interview with users.</p>
@@ -118,11 +102,18 @@
             <br>
             <p>From these discoveries, we created two user personas, a primary and a secondary user. Our primary user, Alanna wants to arrive at her destinations as soon as possible while minimizing her walking distances. Noah, the secondary user, a frequent traeller, wants to be able to explore new cities more efficiently while saving money.</p>
             <br>
-            <h2>Areas of focus</h2>
+            <h3>Areas of focus</h3>
             <br>
             <p>Through user interview and research, as well as our persona creation, we were able to narrow down our ideas. Firstly, we want to find a solution to reduce transit delays, as well as notify users of bus capacity. Next, we wanted to find a way to improve transit safety and conditions. Lastly, we wanted to help tourists explore new and unfamiliar cities.</p>
         </div>       
-        <div class="item">
+        <div class="gutter-right">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="gutter-left">
+        </div>         
+        <div class="item-span">
             <a href="../images/citymapper-personas.png" target="_blank"><img src="../images/citymapper-personas.png" alt="my Citymapper feature design personas" ></a>
         </div>
         <div class="gutter-right">
@@ -132,14 +123,13 @@
     <div class="container">
         <div class="gutter-left">
         </div>         
-        <div class="item">
-            <h2>Pitching our new features</h2>
+        <div class="item-span">
+            <h2>Initial Concepts</h2>
             <br>
             <p>Moving forward from the user research and persona creation, Carissa and I came up with three new features to implement. The first feature is <strong>Place of Interest</strong>, the second is <strong>Itinerary</strong>, finally, <strong>Group Locations</strong>. Each of these new features aims to address distinct issues brought up by our research.</p>
             <br>
         </div>       
-        <div class="item">
-        </div>
+
         <div class="gutter-right">
         </div>
     </div>
@@ -195,14 +185,15 @@
     <div class="container">
         <div class="gutter-left">
         </div>         
-        <div class="item">
-            <h2>Feedback and refinement</h2>
+        <div class="item-span">
+            <h2>Usability</h2>
             <br>
-            <p>After pitching our idea to the teaching team, many <strong>concerns and issues have been raised in both Places of Interest and Itinerary</strong>. Notably, Group Locations leverages existing features offered by Citymapper and helps enhance the current feature. Group Locations however, was not without its flaws. There were many patches in logic and overall usability that still needed to be thought out and refined. The team spent a week refining and patching holes in logic with this feature.</p>
+            <p>Both <strong>Places of Interest and Itinerary</strong> were deemed to lack uniqueness. Users noted that there are other solutions to these issuse that can be solved by other existing apps that already perform the same tasks better. Additionally, users noted that, adding such features would make Citymapper feel like Yelp. Finally, users stated that Group Locations could provide value for Citymapper, however, the flow for editing groups is too confusing and hard to access. Other concerns included "single-use" groups for one trip specifically.</p>
             <br>
         </div>       
-        <div class="item">
-        </div>
+        <!-- <div class="item">
+            <a href="../images/grouplocation.png" target="_blank"><img src="../images/grouplocation.png" alt="my Citymapper feature design personas" ></a>
+        </div> -->
         <div class="gutter-right">
         </div>
     </div>
@@ -211,19 +202,43 @@
         <div class="gutter-left">
         </div>         
         <div class="item">
-            <h2>Feature prototype</h2>
+            <h2>Final Design</h2>
             <br>
-            <p>After refining and testing our idea, patching holes in logic and improving usability, our group was able to present a fully thought out prototype. This new feature was well received and notably had little to no system breaking errors or notable usability issues.</p>
+            <p>Taking into consideration the issues addressed by our usability test, the group redesigned aspects of the new proposed group feature. Users now have the option to hide their shared location, however, turning off location will not allow users to view other users location. The groups feature is now it's own feature, rather than a combined feature with the existing UI. This helps solve the issue with not being able to find the Group feautre.</p>
             <br>
         </div>       
         <div class="item">
-            <a><video controls src="../videos/citymapper.mp4" alt="my Completed prototype" ></a>
+            <a href="../images/grouplocation.png" target="_blank"><img src="../images/group-eta.png" alt="my Citymapper feature design personas" ></a>
         </div>
         <div class="gutter-right">
         </div>
     </div>
 
     <div class="container">
+        <div class="gutter-left">
+        </div>         
+        <div class="item-span">
+            <h2>Feature prototype</h2>
+            <br>
+            <p>After refining and testing our idea, patching holes in logic and improving usability, our group was able to present a fully thought out prototype. This new feature was well received and notably had little to no system breaking errors or notable usability issues.</p>
+            <br>
+        </div>       
+        <div class="gutter-right">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="gutter-left">
+        </div>            
+        <div class="item-span">
+            <a><video controls src="../videos/citymapper.mp4" alt="my Completed prototype" ></a>
+        </div>
+        <div class="gutter-right">
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
         <div class="gutter-left">
         </div>         
         <div class="item">
@@ -255,7 +270,7 @@
         </div>
         <div class="gutter-right">
         </div>
-    </div>
+    </div> -->
 
     <div class="overview-card">
         <h1>Other Projects</h1>
@@ -266,8 +281,8 @@
                 <a href="../html/appcreation.html"><img src="../images/biged.png" alt="my app creation project" ></a>
             </div>
             <div class="overview-item" id="thumbnail-item">
-                <h2>Glow In The Dough - Website Development</h2>
-                <a href="../html/brandcreation.html"><img src="../images/glow.png" alt="my brand creation project"></a></div>
+                <h2>TERAs BEAN - Interaction Design</h2>
+                <a href="../html/TERAsBEAN.html"><img src="../images/teras-thumb.png" alt="my brand creation project"></a></div>
             </div>
             <div class="overview-gutter"></div>
         </div>
