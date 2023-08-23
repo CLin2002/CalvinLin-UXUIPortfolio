@@ -30,6 +30,23 @@ body{
 div{
 	font-style:normal;
 }
+
+.arrow {
+	border: solid rgb(255, 255, 255);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	scale: 300%;
+	margin-top: 50vh;
+	margin-bottom: 50vh;
+	margin-left: 50%;
+  }
+  
+  .right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+  }
+
 .sidenav{
 	position:fixed;
 	display:flex;
@@ -43,6 +60,11 @@ div{
 	float:left;
 	overflow:hidden;
 }
+
+.sidenav:hover i {
+	border: solid var(--lavendergray-accent);
+}
+
 .sidenav:hover{
 	width: 15%;
 }
@@ -415,4 +437,8 @@ form{
     opacity: 80%;
 	scale: 105%;
   }
-  
+
+  #interactive-img img:hover{
+	scale: 105%;
+	opacity: 80%;
+  }
