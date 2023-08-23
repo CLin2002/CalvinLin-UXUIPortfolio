@@ -44,7 +44,7 @@ div{
 	overflow:hidden;
 }
 .sidenav:hover{
-	width: 20%;
+	width: 15%;
 }
 .sidenav:hover div{
 	visibility:visible;
@@ -80,6 +80,7 @@ div{
 	width:100%;
 }
 #dropdown-conts{
+		width: 95%;
 		display:none;
 		position:absolute;
 		background-color:white;
