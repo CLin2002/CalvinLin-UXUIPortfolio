@@ -8,43 +8,37 @@
         <script src="script/scripts.js"></script>
         <title>Calvin's Design Portfolio</title>
     </head>
-    <div class="sidenav" id="sidenav" onclick="showSide()">
-        <!-- <div class="logo" id="logo"> </div> -->
-        <p><i class="arrow right"></i></p>
-        <div class="side-conts" id="side-conts">
-          <ul style="list-style-type:none;">
-            <li><a href="#">Home</a></li>
-            <li><a href="html/about.html">About</a></li>
-            <li class="dropdown" onclick="showDrop()">Projects
-                <ul id="dropdown-conts" >
+    <header>
+        <!-- <img class="logo" src="images/caligraphy.png" alt="logo "> -->
+        <a href="#">Calvin Lin</a>
+        <nav>
+            <ul class="nav__links">
+                <li>                    
+                    <a href="#projects">Projects</a>
+                    <a href="#about-me">About</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta">
+            <button>CONTACT</button>
+        </a>
+    </header>
 
-                    <li><a href="html/TERAsBEAN.html">Interaction Design</a></li>
-
-
-                    <li><a href="html/appcreation.html">App Creation</a></li>
-                
-                
-                    <li><a href="html/featuredesign.html">Feature Design</a></li>
-                
-                    <li><a href="html/brandcreation.html">Brand Creation</a></li>
-<!--                 
-                    <li><a href="html/brandcreation.html">Glow In The Dough</a></li> -->
-                    
-            
-                </ul>
-            </li>
-            
-            <li><a href="html/contact.html">Contact</a></li>
-          </ul>
+    <div class="container">
+        <div class="gutter-left"></div>
+        
+        <div class="item" id="about-me">
+            <h1>Hello! My name is Calvin Lin</h1>
+            <p>I am a dedicated product designer with a deep passion for creating innovative and user-centered experiences. I am currently working towards my undergraduate degree in Interactive Art and Technology at Simon Fraser University, with a concentration in design.
+<br><br>
+                Outside the design world, you’ll find me engaged in a variety of different sports such as volleyball, skiing, and snowboarding. I draw inspiration from the natural world around me, and I firmly believe that having a wide selection of experiences enriches one’s creative abilities.</p>
         </div>
-    </div>
-    <div class="text-margin" id="title-card">
-        <h1>Hello! My name is Calvin Lin</h1>
-        <p>I am a product designer based in Vancouver, at the moment, I am purusing my undergraduate degree in Interactive Arts and Technology with a concentration in design at Simon Fraser University. My passion is to build elegant solutions that improve the lives of others!</p>
+        <div class="item" id="no-decor"><img src="images/memoji.png" alt="my app creation project" ></div>
+        <div class="gutter"></div>
     </div>
 
-    <div class="text-margin">
-        <h2>A selection of my academic projects:</h2><br><br>
+    <div class="text-margin" id="projects">
+        <h2>Check out my projects!</h2><br><br>
     </div>    
     
     <div class="container">
@@ -123,5 +117,36 @@
         </div>
         <div class="gutter-right"></div>
     </div> -->
+    <div class="text-margin" id="project-card">
+        <h1>Contact</h1>
+    </div>
 
+    <div class="overview-card" id="contact">
+        <h2>Let's talk!</h2>
+        <div class="overview-container">
+            <div class="overview-gutter"></div>
+            <div class="overview-item">
+                <h3>(778)321-8246</h3><br>
+                <h3>calvin_lin@sfu.ca</h3><br>
+                <a href="https://github.com/CLin2002" target="_blank"><h3>GitHub</h3></a>
+            </div>
+            <div class="overview-item">
+                <form action="https://formsubmit.co/50d2b2b11fd5597077287656b6b2802d" method="post" autocomplete="off">
+		
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" placeholder="Your Name">
+            
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+            
+                    <label for="message">Message</label>
+                    <textarea name="message" placeholder="Message"></textarea>
+            
+                    <input type="submit" value="Submit">
+            
+                </form>
+            </div>
+            <div class="overview-gutter"></div>
+        </div>
+    </div>
 </html>
