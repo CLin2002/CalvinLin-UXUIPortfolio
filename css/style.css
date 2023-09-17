@@ -316,7 +316,7 @@ projects
 }
 
 .overview-item img {
-	background-color: var(--lavendergray-accent);
+	/* background-color: var(--lavendergray-accent); */
 	border-radius: 1rem;
 	justify-content: center;
 	margin: auto;
