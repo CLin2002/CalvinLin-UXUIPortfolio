@@ -12,12 +12,27 @@
     font-style: normal;
 }
 
-h1 {
+@font-face {
+  font-family: 'proxima'; 
+  src: url('../fonts/Proxima\ Nova\ Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* h1 {
     font-family: 'fredokaone', Arial, sans-serif;
     font-weight: bolder;
     font-size: 4em;
     color: rgb(0, 0, 0);
+  } */
+
+  h1 {
+    font-family: 'proxima', sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
   }
+  
   
   h2, h3, h4, h5, h6, p, a, li, ul {
     font-family: 'comfortaa', sans-serif;

@@ -259,7 +259,7 @@ landing page
 .text-margin {
     padding-left: 15%;
     padding-bottom: 2.5%;
-    max-width: 70%;
+    max-width: 85%;
 }
 
 #title-card {
@@ -275,7 +275,13 @@ projects
 .  */
 #project-card h1 {
 	/* padding-top: 5%; */
+	font-size: 5rem;
+	text-align: center;
+}
+
+#project-card h2 {
 	font-size: 2rem;
+	text-align: center;
 }
 
 .overview-card {
@@ -429,7 +435,7 @@ form{
   }
   input[type="submit"], button {    
 	border-radius: 1rem;
-    background: var(--gray-accent);
+    background: var(--accent);
     color: #fff;
     cursor: pointer;
   }
