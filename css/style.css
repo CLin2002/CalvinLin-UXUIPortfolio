@@ -171,7 +171,7 @@ containers
 
 .item {
     padding: 10px;
-    width: 35%;
+    width: 30%;
     word-wrap: break-word;
     box-sizing: border-box;
 	margin-bottom: 5%;
@@ -180,7 +180,7 @@ containers
 
 .item-span {
 	padding: 10px;
-    width: 70%;
+    width: 60%;
     word-wrap: break-word;
     box-sizing: border-box;
 	margin-bottom: 5%;
@@ -228,14 +228,14 @@ containers
 
 .gutter-right {
     padding: 10px;
-    width: 15%;
+    width: 20%;
     word-wrap: break-word;
     box-sizing: border-box;
 }
 
 .gutter-left {
     padding: 10px;
-    width: 15%;
+    width: 20%;
     word-wrap: break-word;
     box-sizing: border-box;
 }
