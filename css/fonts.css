@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'rubik'; 
+  src: url('../fonts/Rubik-Light.ttf Nova\ Bold.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
 /* h1 {
     font-family: 'fredokaone', Arial, sans-serif;
     font-weight: bolder;
@@ -32,12 +39,27 @@
     font-size: 4em;
     color: rgb(0, 0, 0);
   }
+
+  p {
+    font-family: 'rubik', sans-serif;
+    color: black;
+  }
   
   
-  h2, h3, h4, h5, h6, p, a, li, ul {
+  /* h2, h3, h4, h5, h6, a, li, ul {
     font-family: 'comfortaa', sans-serif;
     color: rgb(0, 0, 0);
+  } */
+
+  h2, h3, h4, h5, h6, a, li, ul {
+    font-family: 'proxima', sans-serif;
+    color: rgb(0, 0, 0);
   }
+
+  /* h2, h3, h4, h5, h6, a, li, ul {
+    font-family: 'rubik', sans-serif;
+    color: rgb(0, 0, 0);
+  } */
 
   h2 {
     font-size: 2rem;
