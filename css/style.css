@@ -217,13 +217,14 @@ containers
     margin: 0 16px 16px 16px;
 }
 
-#landing-item img {
+#landing img {
+	display: block;
     max-width: 100%;
-    filter: drop-shadow(0 0 0.75rem var(--lavendergray-accent));
-    border-radius: 1rem;
+    /* filter: drop-shadow(0 0 0.75rem var(--lavendergray-accent));
+    border-radius: 1rem; */
 }
 
-#landing-item img:hover {
+#landing img:hover {
     opacity: 80%;
 }
 
@@ -239,6 +240,61 @@ containers
     width: 20%;
     word-wrap: break-word;
     box-sizing: border-box;
+}
+
+#overview-left {
+	width: 15%;
+}
+
+#overview-right {
+	width: 45%;
+}
+
+.landing-gutter{
+    padding: 10px;
+    width: 15%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.landing-item {
+    /* padding: 10px; */
+    width: 35%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	margin-bottom: 5%;
+    /* 
+	background-color: rgba(0,0,0,0.05); */
+}
+
+.footer-gutter {
+    padding: 10px;
+    width: 20%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.footer-item {
+    padding: 10px;
+    width: 55%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	margin: 2.5%;
+	margin-bottom: 0;
+    /* background-color: rgba(0,0,0,0.05); */
+}
+
+footer {
+	background-color: var(--primary);
+	text-align: center;
+}
+
+footer h2 {
+	color: white;
+}
+
+footer h3 {
+	color: white;
 }
 
 
@@ -362,12 +418,12 @@ projects
     box-sizing: border-box;
 }
 
-.overview-gutter {
+/* .overview-gutter {
     padding: 10px;
     width: 5%;
     word-wrap: break-word;
     box-sizing: border-box;
-}
+} */
 
 #other-projects {
 	background-color: var(--gray-accent);
@@ -485,8 +541,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-	margin-bottom: 2.5%;
+	/* margin-bottom: 2.5%; */
 }
+
 
 .logo{
     cursor: pointer;
@@ -524,13 +581,13 @@ button:hover{
 }
 
 header {
-	background-color: rgb(98, 98, 122);
-	filter: drop-shadow(0 0 0.75rem rgba(44, 44, 44, 0.322));
+	/* background-color: rgb(98, 98, 122); */
+	/* filter: drop-shadow(0 0 0.75rem rgba(44, 44, 44, 0.322)); */
 	/* margin-bottom: 1%; */
 }
 
 header a {
-	color: white;
+	color: black;
 }
 
 header a:hover {
@@ -547,4 +604,53 @@ header a:hover {
 
 #about-me p {
 	margin-bottom: 40%;
+}
+
+.hero-image {
+	  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../videos/citymapper.gif"); */
+
+	  height: 75%;
+
+	  margin-left: 15%;
+	  margin-right: 15%;
+
+	  margin-top: 2.5%;
+	  margin-bottom: 2.5%;
+	
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+.hero-text h1 {
+	color: white;
+}
+
+.hero-text p {
+	color: white;
+}
+
+#cm-hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../videos/citymapper.gif");
+}
+
+#tb-hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../images/teras.png");
+}
+
+#be-hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../images/biged-landing.png");
+}
+
+#gitd-hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../images/glow-landing.png");
 }

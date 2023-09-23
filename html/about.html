@@ -8,34 +8,21 @@
         <script src="../script/scripts.js"></script>
         <title>About me</title>
     </head>
-    <div class="sidenav" id="sidenav" onclick="showSide()">
-        <p><i class="arrow right"></i></p>
-        <!-- <div class="logo" id="logo"> </div> -->
-        <div class="side-conts" id="side-conts">
-          <ul style="list-style-type:none;">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../html/about.html">About</a></li>
-            <li class="dropdown" onclick="showDrop()">Projects
-                <ul id="dropdown-conts" >
-                    <li><a href="../html/TERAsBEAN.html">Interaction Design</a></li>
-
-
-
-                    <li><a href="../html/appcreation.html">App Creation</a></li>
-                
-
-
-                    <li><a href="../html/featuredesign.html">Feature Design</a></li>
-                
-                    <li><a href="../html/brandcreation.html">Glow In The Dough</a></li>
-            
-                </ul>
-            </li>
-            
-            <li><a href="../html/contact.html">Contact</a></li>
-          </ul>
-        </div>
-    </div>
+    <header>
+        <!-- <img class="logo" src="images/caligraphy.png" alt="logo "> -->
+        <a href="../index.html">Calvin Lin</a>
+        <nav>
+            <ul class="nav__links">
+                <li>                    
+                    <a href="../index.html#projects">Projects</a>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta">
+            <button>CONTACT</button>
+        </a>
+    </header>
     <!-- <div class="contact">            
         <div class="center">
             <h2>Find me here...</h2>
@@ -53,22 +40,31 @@
         </div>
     </div> -->
 
-    <div class="text-margin" id="project-card">
-        <h1>Yup, that's me...</h1>
+    <div class="container">
+        <div class="gutter-left"></div>
+        
+        <div class="item" id="about-me">
+            <h1>Hello! My name is Calvin Lin</h1>
+            <p>I am a dedicated product designer with a deep passion for creating innovative and user-centered experiences. I am currently working towards my undergraduate degree in Interactive Art and Technology at Simon Fraser University, with a concentration in design.
+<br><br>
+                Outside the design world, you’ll find me engaged in a variety of different sports such as volleyball, skiing, and snowboarding. I draw inspiration from the natural world around me, and I firmly believe that having a wide selection of experiences enriches one’s creative abilities.</p>
+        </div>
+        <div class="item" id="no-decor"><img src="../images/memoji.png" alt="my app creation project" ></div>
+        <div class="gutter"></div>
     </div>
 
-    <div class="overview-card">
-        <!-- <h2>Let's talk!</h2> -->
-        <br>
-        <div class="overview-container">
-            <div class="overview-gutter"></div>
-            <div class="overview-item">
-                <h3>Hello! My name is Calvin Lin and I am a product designer. Ever since I could remember, I have always loved visuals to communicate ideas. This eventually led me to pursuing my undergraduate degree in Interactive Arts and Technology, with a concentration in design at Simon Fraser University. In the quest of pursuing my undergrad, I have built strong skills in desgin, including HTML/CSS/JavaScript, experience with the Adobe Suite, as well as other tools such as Figma.</h3>
+    <footer>
+        <div class="container" id="contact"> 
+            <div class="footer-gutter"></div>
+            <div class="footer-item">
+                <h2>Let's Talk!</h2>
+                <br>
+                <h3>Email: calvin_lin@sfu.ca</h3>
+                <h3>Cell: (778)-321-8246</h3>
+                <br><br><br><br>
+                <h4>Website designed and coded by Calvin Lin</h4>
             </div>
-            <div class="overview-item" id="no-style">
-                <a><img src="../images/me.png" alt="a photo of me" /></a>
-            </div>
-            <div class="overview-gutter"></div>
+            <div class="footer-gutter"></div>
         </div>
-    </div>
+    </footer>
 </html>
