@@ -184,7 +184,7 @@ containers
     width: 60%;
     word-wrap: break-word;
     box-sizing: border-box;
-	margin-bottom: 5%;
+	/* margin-bottom: 5%; */
 }
 
 .item img {
@@ -205,7 +205,6 @@ containers
 	overflow: hidden;
     padding: 0 2px;
     margin: 0 16px 16px 16px;
-	margin-top: -5%;
 }
 
 .item-span video {
