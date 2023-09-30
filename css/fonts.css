@@ -45,6 +45,12 @@
     color: black;
   }
   
+  li {
+    font-family: 'rubik', sans-serif;
+    color: black;
+    font-size: 1.15rem;
+    line-height: 1.5;
+  }
   
   /* h2, h3, h4, h5, h6, a, li, ul {
     font-family: 'comfortaa', sans-serif;
@@ -72,4 +78,15 @@
   p {
     font-size: 1.15rem;
     line-height: 1.5;
+  }
+
+  a {
+    font-family: 'rubik', sans-serif;
+    color: black;
+    font-size: 1.15rem;
+    line-height: 1.5;
+  }
+
+  a:hover {
+    color: var(--accent);
   }

@@ -657,3 +657,17 @@ header a:hover {
 #gitd-hero {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../images/glow-landing.png");
 }
+
+.hide {
+	display: none;
+  }
+	  
+  .myDIV:hover + .hide {
+	text-align: center;
+	position: relative;
+	display: block;
+  }
+
+li {
+	margin-left: 2rem;
+}
