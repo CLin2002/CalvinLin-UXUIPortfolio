@@ -251,14 +251,14 @@ containers
 
 .landing-gutter{
     padding: 10px;
-    width: 15%;
+    width: 25%;
     word-wrap: break-word;
     box-sizing: border-box;
 }
 
 .landing-item {
     /* padding: 10px; */
-    width: 35%;
+    width: 50%;
     word-wrap: break-word;
     box-sizing: border-box;
 	margin-bottom: 5%;
