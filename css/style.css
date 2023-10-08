@@ -179,6 +179,19 @@ containers
     /* background-color: rgba(0,0,0,0.05); */
 }
 
+.item-projects {
+    /* padding: 10px; */
+    width: 35%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	margin-bottom: 2.5%;
+    /* background-color: rgba(0,0,0,0.05); */
+}
+
+.item-projects:hover {
+	opacity: 80%;
+}
+
 .item-span {
 	padding: 10px;
     width: 60%;
@@ -186,7 +199,10 @@ containers
     box-sizing: border-box;
 	/* margin-bottom: 5%; */
 }
-
+#project-span h2{
+	margin-top: 2.5%;
+text-align: center;
+}
 .item img {
 	min-width: 0;
 	max-width: 100%;
@@ -239,6 +255,17 @@ containers
     width: 20%;
     word-wrap: break-word;
     box-sizing: border-box;
+}
+
+.gutter-projects {
+    padding: 10px;
+    width: 15%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.item-projects img {
+	max-width: 100%;
 }
 
 #overview-left {
