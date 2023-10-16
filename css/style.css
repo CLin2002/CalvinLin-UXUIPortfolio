@@ -745,7 +745,7 @@ li {
 	transition-delay: 400ms;
 }
 .landing-delay:nth-child(3) {
-	transition-delay: 600ms;
+	transition-delay: 0;
 }
 
 /* .container{
