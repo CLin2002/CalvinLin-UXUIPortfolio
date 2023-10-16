@@ -71,3 +71,18 @@ const observerLanding = new IntersectionObserver((entries) => {
 
 const hiddenLanding = document.querySelectorAll(".landing-hide");
 hiddenLanding.forEach((el) => observerLanding.observe(el));
+
+const observerImg = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		console.log(entry) 
+			if (entry.isIntersecting) {
+				entry.target.classList.add("image-show");
+			}
+			// else {
+			// 	entry.target.classList.remove("show");
+			// }
+	});
+});
+
+const hiddenImg = document.querySelectorAll(".image-hide");
+hiddenImg.forEach((el) => observerImg.observe(el));
