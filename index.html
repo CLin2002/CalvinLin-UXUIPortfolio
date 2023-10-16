@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/fonts.css">
-        <script src="script/scripts.js"></script>
+        <script defer src="script/scripts.js"></script>
         <title>Calvin's Design Portfolio</title>
     </head>
     <header>
@@ -43,17 +43,21 @@
         </div>    
     </section>
     
-    <div class="container">
+    <div class="container" id="landing-animation">
         <div class="landing-gutter"></div>
         <div class="landing-item" id="landing">
             <div class="myDIV">    
-
-            <a href="html/appcreation.html"><img src="images/biged-landing1.png" alt="my app creation project" ></a>   
-             
-            <a href="html/featuredesign.html"><img src="images/citymapper-landing1.png" alt="my Citymapper feature design project" ></a>
             
+            <div class="landing-delay landing-hide">
+            <a href="html/appcreation.html"><img src="images/biged-landing1.png" alt="my app creation project" ></a>   
+            </div> 
+            <div class="landing-delay landing-hide">
+            <a href="html/featuredesign.html"><img src="images/citymapper-landing1.png" alt="my Citymapper feature design project" ></a>
+            </div>
+            <div class="landing-delay landing-hide">
             <a href="html/TERAsBEAN.html"><img src="images/teras-landing1.png" class="image" alt="my app creation project" ></a> 
             </div>
+        </div>
             <!-- <div class="hide"><h3>TERAs BEAN</h3><h4>Interaction Design</h4></div> -->
              
      

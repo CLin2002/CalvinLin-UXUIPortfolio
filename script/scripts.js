@@ -24,3 +24,50 @@ function showSide(){
 	statSide = document.getElementById("side-conts");
 	statSide.classList.toggle("sidemenuClick");
 }
+
+// const reveals = document.querySelectorAll(".container");  
+
+// function reveal() {
+  
+//     for (var i = 0; i < reveals.length; i++) {
+//       var windowHeight = window.innerHeight;
+//       var elementTop = reveals[i].getBoundingClientRect().top;
+//       var elementVisible = 0;
+  
+//       if (elementTop < windowHeight - elementVisible && i % 2 === 0) {
+//         reveals[i].classList.add("opacity-change");
+//       } 
+//     }
+//   }
+  
+//   window.addEventListener("scroll", reveal);
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		console.log(entry) 
+			if (entry.isIntersecting) {
+				entry.target.classList.add("show");
+			}
+			// else {
+			// 	entry.target.classList.remove("show");
+			// }
+	});
+});
+
+const hiddenElement = document.querySelectorAll(".hidden");
+hiddenElement.forEach((el) => observer.observe(el));
+
+const observerLanding = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		console.log(entry) 
+			if (entry.isIntersecting) {
+				entry.target.classList.add("landing-show");
+			}
+			// else {
+			// 	entry.target.classList.remove("show");
+			// }
+	});
+});
+
+const hiddenLanding = document.querySelectorAll(".landing-hide");
+hiddenLanding.forEach((el) => observerLanding.observe(el));
