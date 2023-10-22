@@ -260,6 +260,14 @@ text-align: center;
     margin: 0 16px 16px 16px;
 }
 
+#gif {
+	width: 15%;
+}
+
+#gif-text {
+	width: 20%;
+}
+
 #landing img {
 	display: block;
     max-width: 100%;
