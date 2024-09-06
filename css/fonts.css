@@ -51,7 +51,7 @@
     font-size: 1.15rem;
     line-height: 1.5;
   }
-  
+
   /* h2, h3, h4, h5, h6, a, li, ul {
     font-family: 'comfortaa', sans-serif;
     color: rgb(0, 0, 0);
@@ -89,4 +89,53 @@
 
   a:hover {
     color: var(--accent);
+  }
+
+  .nav__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Default to horizontal layout */
+}
+
+.nav__links li {
+    margin-right: 15px; /* Spacing between items */
+}
+
+  @media screen and (max-width: 680px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+    h3 {
+      font-size: .9rem;
+    }
+  
+    p {
+      font-size: .8rem;
+      line-height: 1.5;
+    }
+    .nav__links {
+      flex-direction: column; /* Stack vertically on small screens */
+      align-items: center; /* Center items horizontally */
+  }
+
+  .nav__links li {
+      margin: 5px 0; /* Adjust spacing for vertical stack */
+  }
+
+  a {
+      font-size: .95rem;
+  }
+
+  button {
+      font-size: .95rem;
+  }
+
+  .quote a {
+    font-size: .75rem;
+  }
   }

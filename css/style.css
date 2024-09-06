@@ -221,6 +221,7 @@ containers
     box-sizing: border-box;
 	/* margin-bottom: 5%; */
 }
+
 #project-span h2{
 	margin-top: 2.5%;
 text-align: center;
@@ -690,8 +691,8 @@ header a:hover {
 
 	  height: 75%;
 
-	  margin-left: 15%;
-	  margin-right: 15%;
+	  /* margin-left: 15%;
+	  margin-right: 15%; */
 
 	  margin-top: 2.5%;
 	  margin-bottom: 2.5%;
@@ -922,7 +923,7 @@ strong {
 	.hero-image {
 		/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../videos/citymapper.gif"); */
   
-		height: 25%;
+		height: 35%;
   
 		/* margin-left: 15%;
 		margin-right: 15%;
@@ -935,5 +936,87 @@ strong {
 		background-size: cover;
 		position: relative;
   }
+
+  .item {
+	width: 100%; /* 2 items per row */
+}
+.container {
+	flex-direction: column; /* Stack items vertically on smaller screens */
+}
+
+#overview-left, #overview-right {
+	width: 100%; /* Full width for each item in vertical stack */
+}
+
+.gutter-left, .gutter-right {
+	display: none; /* Hide gutters in vertical layout */
+}
+
+.item-span {
+	padding: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	/* margin-bottom: 5%; */
+}
+
+.item-span img{
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	/* margin-bottom: 5%; */
+}
+
+.question {
+    width: 100%;
+	margin-bottom: 5%;
+    /* background-color: rgba(0,0,0,0.05); */
+}
+
+.quote {
+	width: 90%;
+	text-align: center;
+}
+
+.item-projects {
+	width: 100%; /* Full width for each item in vertical stack */
+	margin-bottom: 10px; /* Space between stacked items */
+}
+
+.gutter-projects {
+	display: none; /* Hide gutters in vertical layout */
+}
+.item {
+	width: 100%; /* Full width for each item in vertical stack */
+	margin-bottom: 10px; /* Space between stacked items */
+}
+
+#gif, #gif-text {
+    flex: 0 1 auto; /* Allow items to grow and shrink as needed */
+	width: 90%;
+}
+
+.item-span video {
+	min-width: 0;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.item img {
+	min-width: 0;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+    padding: 0;
+    margin: 0;
+	margin-top: 0%;
+	/* margin-bottom: -15%; */
+}
+
 }
 
