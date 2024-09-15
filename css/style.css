@@ -184,7 +184,7 @@ containers
     width: 10%;
     word-wrap: break-word;
     box-sizing: border-box;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
     /* background-color: rgba(0,0,0,0.05); */
 }
 
@@ -203,7 +203,7 @@ containers
 
 .item-projects {
     /* padding: 10px; */
-    width: 35%;
+    width: 23.3%;
     word-wrap: break-word;
     box-sizing: border-box;
 	margin-bottom: 2.5%;
@@ -735,6 +735,10 @@ header a:hover {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../images/glow-landing.png");
 }
 
+#bc-hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../images/infographic-landing1.png");
+}
+
 .hide {
 	display: none;
   }
@@ -971,7 +975,7 @@ strong {
 
 .question {
     width: 100%;
-	margin-bottom: 5%;
+	/* margin-bottom: 5%; */
     /* background-color: rgba(0,0,0,0.05); */
 }
 

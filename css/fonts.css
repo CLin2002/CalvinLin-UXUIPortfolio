@@ -127,6 +127,10 @@
       margin: 5px 0; /* Adjust spacing for vertical stack */
   }
 
+  li {
+    font-size: .8rem;
+  }
+
   a {
       font-size: .95rem;
   }
