@@ -578,8 +578,8 @@ form{
 
 
   :root {
-    --primary: rgb(43, 60, 95);
-    --accent: rgb(104, 183, 202);
+    --primary: rgb(55, 21, 78);
+    --accent: rgb(218, 58, 92);
 	--lightgrey: rgb(232, 249, 255);
 }
 
@@ -694,7 +694,7 @@ header a:hover {
 	  /* margin-left: 15%;
 	  margin-right: 15%; */
 
-	  margin-top: 2.5%;
+	  /* margin-top: 2.5%; */
 	  margin-bottom: 2.5%;
 	
 	  background-position: center;
